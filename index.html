@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Akram Elbasri">
+    <meta name="Description" content="Html Restaurant Website project">
+    <title>The Little Taco Shop</title>
+    <link rel="icon" href="image/tacos.png"
+     type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css"> 
+
+</head>
+
+
+<body>
+</body>
+    <header id="header">
+        
+        <h1>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            Welcome to The Little Taco Shop
+        </h1>
+        
+    </header>
+    <main>
+        <section id="summary">
+            <ul>
+                <li>
+                    <a href="#aboutlts">About LTS</a>
+                    
+                </li>
+                <li>
+                    <a href="#Menu"> Our Menu</a>
+                   
+                </li>
+                <li>
+                    <a href="#order">Order Now</a>
+                    
+                </li>
+                <li>
+                    <a href="#contactus">Contact Us</a>
+                    
+                </li>
+            </ul>
+        </section>
+        <section id="couverture">
+            <img src="image/couverture.jpg" alt="Taco">
+            <br>
+        </section>
+
+        <section id="aboutlts">
+            <h2>About <strong>LTS</strong></h2>
+            <p>
+                &nbsp;&nbsp;LTS was founded in 2022.
+                Our shop was built from an admiration 
+                of <em>Tacos</em>. We hope our shop adds a unique 
+                and interesting place to our 
+                little town.
+            </p>
+        </section>
+        <section id="trivia">
+                <br>
+                <hr>
+                <h2>Taco Trivia</h2>
+                <form>
+                    <fieldset>
+                <details>
+                    <summary>When did Tacos first appear in the United States ?</summary>
+                    <p>
+                        <strong><mark>1905</mark></strong> :  Mexican migrants were coming in to work 
+                        on railroads and other jobsand started to bring their delicious 
+                        food with them.Tacos were essentially a street food at this time 
+                        since they were highly portable and cheap.
+                    </p>
+                </details>
+            </fieldset>
+                </form>
+        </section>    
+            
+            <section id="Menu">
+                <br>
+                <br>
+                <h2>Our Menu</h2>
+                <img src="image/tacos.png" alt="tacos">
+
+                <table align="center">
+                    
+                    <caption>Our Tacos</caption>
+                    <thead>
+                        <th>Tacos</th>
+                        <th scope="col"><abbr title="Quantity">QTY</abbr></th>
+                        <th scope="col"><abbr title="in USD">Price</abbr></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" rowspan="4">Soft</th>
+                            <td>1</td>
+                            <td>10.99 $</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>20.99 $</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>30.99 $</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>40.99 $</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="3">Crunchy</th>
+                            <td>1</td>
+                            <td>15.99 $</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>28.99 $</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>34.99 $</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">
+                                Salsa && Chips 3.99 $
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <!-- TOP OF THE PAGE AFTER THIS COMMENT-->
+                <br>
+
+                <a href="#header"><strong>TOP OF PAGE</strong></a>
+                <br><br><br>
+                <hr>
+                <br>
+
+            </section>
+        <section id="order">
+            
+            <form action="https://httpbin.org/get" method="get">
+
+                <fieldset>
+                    <legend>Make Your Order !</legend>
+                <br>
+                    <label for="firstname">First Name : </label>
+                <input type="text" name="firstname" id="firstname">
+                <br>
+                <br>
+                <label for="lastname">Last Name : </label>
+                <input type="text" name="lastname" id="lastname">
+                <br>
+                <br>
+
+                <label for="day">Day :</label>
+                <input type="number" name="day" id="day"  min="1" max="31" step="1" 
+                value="30">
+                <label for="month">Month :</label>
+                <input type="number" name="month" id="month" min="1" max="12" step="1" 
+                value="6">
+                <label for="year">Year :</label>
+                <input type="number" name="year" id="year"  min="1966" max="2022" step="1" 
+                value="2001">
+                <br>
+                <br>
+
+
+                <label>Tacos / Quantity</label>
+                    <select name="food" id="crunchy" multiple size="3">
+                        <optgroup label="Crunchy">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </optgroup>
+                        <optgroup label="Soft">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                        </optgroup>
+                    </select>
+                    <br>
+                    <br>
+                <label for="phone">GSM : </label>
+                <input type="tel" name="phone" id="phone" placeholder="put your phone number right here ...">
+                <br>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;
+                <label for="message"></label>
+                <textarea name="messgae" id="message" cols="30" rows="10" placeholder="Ecris Ton Message Ici .."></textarea>
+
+
+            
+            </fieldset>
+            <button type="submit" > Submit </button>
+            <button type="reset" > Reset  </button>
+            </form>
+
+        </section>
+
+
+        <section id="contactus">
+
+            <p>
+                <a href="contactUs.html"><strong>CLick Here to Contact Us !</strong></a>
+            </p>
+
+        </section>
+    </main>
+    <footer>
+        <br>
+        <hr>
+        <p align="center">
+            Copyright &copy;  The Little Taco Shop 
+            <br>
+            Made by&nbsp;&nbsp; Akram
+
+        </p>
+    </footer>
+
+
+</html>
